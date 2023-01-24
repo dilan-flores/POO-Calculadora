@@ -20,6 +20,7 @@
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="20"/>
           <text value="📱"/>
         </properties>
       </component>
@@ -28,7 +29,11 @@
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-5986907"/>
+        </properties>
         <border type="none"/>
         <children>
           <vspacer id="4e67">
@@ -42,6 +47,7 @@
             </constraints>
             <properties>
               <font name="Arial" size="20"/>
+              <foreground color="-1"/>
               <text value=""/>
             </properties>
           </component>
@@ -56,6 +62,7 @@
             </constraints>
             <properties>
               <font name="Arial" size="20"/>
+              <foreground color="-1"/>
               <text value=""/>
             </properties>
           </component>
@@ -66,7 +73,9 @@
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
           <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="%"/>
         </properties>
       </component>
@@ -75,6 +84,9 @@
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="DEL"/>
         </properties>
       </component>
@@ -83,6 +95,9 @@
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="AC"/>
         </properties>
       </component>
@@ -91,6 +106,9 @@
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="8"/>
         </properties>
       </component>
@@ -99,6 +117,9 @@
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="5"/>
         </properties>
       </component>
@@ -107,6 +128,9 @@
           <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="3"/>
         </properties>
       </component>
@@ -115,6 +139,9 @@
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="0"/>
         </properties>
       </component>
@@ -123,6 +150,9 @@
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="7"/>
         </properties>
       </component>
@@ -131,6 +161,9 @@
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="4"/>
         </properties>
       </component>
@@ -139,6 +172,9 @@
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="1"/>
         </properties>
       </component>
@@ -147,6 +183,9 @@
           <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="2"/>
         </properties>
       </component>
@@ -155,6 +194,9 @@
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="9"/>
         </properties>
       </component>
@@ -163,6 +205,9 @@
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="6"/>
         </properties>
       </component>
@@ -171,7 +216,9 @@
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
           <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="/"/>
         </properties>
       </component>
@@ -180,7 +227,9 @@
           <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
           <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="X"/>
         </properties>
       </component>
@@ -189,7 +238,9 @@
           <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
           <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="-"/>
         </properties>
       </component>
@@ -198,6 +249,9 @@
           <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="."/>
         </properties>
       </component>
@@ -206,7 +260,9 @@
           <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
           <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="+/-"/>
         </properties>
       </component>
@@ -215,7 +271,9 @@
           <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
           <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="="/>
         </properties>
       </component>
@@ -224,7 +282,9 @@
           <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
           <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="+"/>
         </properties>
       </component>
@@ -233,7 +293,10 @@
           <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12828863"/>
+          <enabled value="true"/>
           <font name="Arial" size="20"/>
+          <foreground color="-1"/>
           <text value="ANS"/>
         </properties>
       </component>
@@ -242,6 +305,15 @@
           <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
+      <component id="1fc9f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="📱"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

@@ -104,6 +104,7 @@ public class calculadora {
         punto.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                /* Verifica si String pantalla contiene un punto "."*/
                 if (!(pantalla.getText().contains("."))){
                     pantalla.setText(pantalla.getText()+".");
                     pantalla2.setText("");
@@ -144,6 +145,16 @@ public class calculadora {
             }
         });
 
+        por.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                num1 = Float.parseFloat(pantalla.getText());
+                operador="*";
+                pantalla2.setText("*");
+                pantalla.setText("");
+            }
+        });
+
         menos.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -158,6 +169,28 @@ public class calculadora {
                 }
             }
         });
+
+        mas.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                num1 = Float.parseFloat(pantalla.getText());
+                operador="+";
+                pantalla2.setText("+");
+                pantalla.setText("");
+            }
+        });
+
+        porciento.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                num1 = Float.parseFloat(pantalla.getText());
+                operador="%";
+                pantalla2.setText("%");
+                pantalla.setText("");
+                resultado = num1;
+            }
+        });
+
         signo.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -171,7 +204,6 @@ public class calculadora {
             public void actionPerformed(ActionEvent e) {
                 //num2=Float.parseFloat(pantalla.getText());
                 switch (operador) {
-
                     case "/": {
                         num2 = Float.parseFloat(pantalla.getText());
                         pantalla2.setText("" + sinCero(num1) + operador + sinCero(num2) + "=");
@@ -187,10 +219,34 @@ public class calculadora {
                         pantalla.setText(sinCero(resultado));
                         break;
                     }
+
+                    case "*": {
+                        num2 = Float.parseFloat(pantalla.getText());
+                        pantalla2.setText("" + sinCero(num1) + operador + sinCero(num2) + "=");
+                        resultado = num1 * num2;
+                        pantalla.setText(sinCero(resultado));
+                        break;
+                    }
+
+                    case "+": {
+                        num2 = Float.parseFloat(pantalla.getText());
+                        pantalla2.setText("" + sinCero(num1) + operador + sinCero(num2) + "=");
+                        resultado = num1 + num2;
+                        pantalla.setText(sinCero(resultado));
+                        break;
+                    }
+
+                    case "%": {
+                        pantalla2.setText("" + resultado + operador +"=");
+                        resultado = resultado /100;
+                        pantalla.setText(sinCero(resultado));
+                        break;
+                    }
                 }
             }
         });
     }
+
     public static String sinCero(float numero){
         String sincero;
         sincero=Float.toString(numero);
@@ -204,7 +260,7 @@ public class calculadora {
         frame.setContentPane(new calculadora().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-        frame.setSize(500, 400);
+        frame.setSize(400, 400);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
